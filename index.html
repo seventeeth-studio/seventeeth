@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seventeeth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --white: #FAFAF8;
+    --black: #111110;
+    --gray-light: #E8E7E3;
+    --gray-mid: #9B9A96;
+    --accent: #C8B89A;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(circle, #BCBBB6 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 520px;
+    width: 100%;
+    animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .logo {
+    width: clamp(200px, 55vw, 320px);
+    height: auto;
+    filter: invert(1);
+  }
+
+  .rule {
+    width: 36px;
+    height: 1px;
+    background: var(--accent);
+    margin: 2.2rem auto 1.8rem;
+    animation: scaleIn 1s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
+  }
+
+  @keyframes scaleIn {
+    from { transform: scaleX(0); opacity: 0; }
+    to   { transform: scaleX(1); opacity: 1; }
+  }
+
+  .tagline {
+    font-family: 'DM Mono', monospace;
+    font-size: clamp(0.6rem, 2vw, 0.72rem);
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    color: var(--gray-mid);
+    text-transform: uppercase;
+    animation: fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 2.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    color: var(--gray-light);
+    animation: fadeUp 1.4s cubic-bezier(0.16, 1, 0.3, 1) 0.6s both;
+  }
+
+  .corner {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    opacity: 0.2;
+  }
+  .corner-tl { top: 2rem; left: 2rem; border-top: 1px solid var(--black); border-left: 1px solid var(--black); }
+  .corner-tr { top: 2rem; right: 2rem; border-top: 1px solid var(--black); border-right: 1px solid var(--black); }
+  .corner-bl { bottom: 2rem; left: 2rem; border-bottom: 1px solid var(--black); border-left: 1px solid var(--black); }
+  .corner-br { bottom: 2rem; right: 2rem; border-bottom: 1px solid var(--black); border-right: 1px solid var(--black); }
+</style>
+</head>
+<body>
+
+<div class="corner corner-tl"></div>
+<div class="corner corner-tr"></div>
+<div class="corner corner-bl"></div>
+<div class="corner corner-br"></div>
+
+<main class="container">
+  <img class="logo" src="logo_studio.png" alt="Seventeeth">
+  <div class="rule"></div>
+  <p class="tagline">Coming soon</p>
+</main>
+
+<footer class="footer">© 2026 Seventeeth</footer>
+
+</body>
+</html>
