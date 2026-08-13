@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Politique de confidentialité — Modex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: #2C2C2C;
+            background: #F5F5F5;
+            padding: 40px 20px 80px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 48px;
+        }
+
+        header a {
+            font-size: 14px;
+            color: #2C2C2C;
+            text-decoration: none;
+            opacity: 0.5;
+        }
+
+        header a:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: #808080;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        ul li {
+            margin-bottom: 4px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #DCDCDC;
+            margin: 32px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+
+        th {
+            background: #E3E3E3;
+            text-align: left;
+            padding: 10px 12px;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #DCDCDC;
+            vertical-align: top;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        a {
+            color: #2C2C2C;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+
+        em {
+            font-style: italic;
+            font-size: 14px;
+            color: #808080;
+        }
+
+        footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid #DCDCDC;
+            font-size: 13px;
+            color: #808080;
+        }
+
+        footer a {
+            color: #808080;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <a href="https://seventeeth.com">← Retour</a>
+            <h1>Politique de confidentialité</h1>
+            <p class="last-updated">Dernière mise à jour : 13/08/2026</p>
+        </header>
+
+        <hr>
+
+        <h2>1. Éditeur de l'application</h2>
+        <p>L'application <strong>Modex</strong> est éditée par :</p>
+        <p>
+            <strong>Seventeeth</strong><br>
+            SASU au capital social de 1 000 €<br>
+            SIRET : 102 564 309 00015<br>
+            Siège social : 200 rue de la Croix Nivert, 75015 Paris<br>
+            Email de contact : <a href="mailto:privacy@seventeeth.com">privacy@seventeeth.com</a>
+        </p>
+
+        <hr>
+
+        <h2>2. Données collectées</h2>
+        <p>Dans le cadre de l'utilisation de Modex, les données suivantes peuvent être collectées :</p>
+
+        <h3>2.1 Données collectées automatiquement</h3>
+
+        <p><strong>Via Firebase Analytics (Google LLC) :</strong></p>
+        <ul>
+            <li>Données d'utilisation de l'application (sessions, événements de jeu, progression)</li>
+            <li>Identifiant anonyme de l'appareil</li>
+            <li>Modèle d'appareil, version iOS, langue du système</li>
+            <li>Données de performance et de stabilité de l'application</li>
+        </ul>
+
+        <p><strong>Via Firebase Firestore (Google LLC) :</strong></p>
+        <ul>
+            <li>Progression dans le jeu (chapitres complétés, mots trouvés)</li>
+            <li>État de la partie (vies, monnaie virtuelle, niveaux débloqués)</li>
+            <li>Date et heure des sessions</li>
+        </ul>
+
+        <p><strong>Via Google AdMob (Google LLC) :</strong></p>
+        <ul>
+            <li>Données techniques nécessaires à l'affichage de publicités <strong>non-personnalisées</strong> (adresse IP, informations sur l'appareil, données de performance publicitaire)</li>
+            <li>Modex n'affiche que des publicités non-personnalisées : aucun identifiant publicitaire (IDFA) n'est collecté à des fins de ciblage cross-app</li>
+            <li>Un consentement est néanmoins recueilli via une bannière de consentement certifiée (Google User Messaging Platform — UMP), conformément aux exigences RGPD applicables même aux publicités non-personnalisées</li>
+            <li>La liste détaillée des partenaires publicitaires est accessible à tout moment depuis cette bannière de consentement</li>
+        </ul>
+
+        <h3>2.2 Données non collectées</h3>
+        <p>Modex <strong>ne collecte pas</strong> :</p>
+        <ul>
+            <li>De nom, prénom ou adresse email</li>
+            <li>De mot de passe (aucun compte utilisateur)</li>
+            <li>De données de localisation précise</li>
+            <li>De données de paiement (aucun achat intégré n'est actif dans l'application à ce jour)</li>
+        </ul>
+
+        <hr>
+
+        <h2>3. Finalités du traitement</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Donnée</th>
+                    <th>Finalité</th>
+                    <th>Base légale</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Données Firebase Analytics</td>
+                    <td>Mesure d'audience agrégée et anonyme, amélioration du produit (aucune identification individuelle)</td>
+                    <td>Intérêt légitime</td>
+                </tr>
+                <tr>
+                    <td>Données Firebase Firestore</td>
+                    <td>Sauvegarde et synchronisation de la progression</td>
+                    <td>Exécution du service</td>
+                </tr>
+                <tr>
+                    <td>Données techniques AdMob</td>
+                    <td>Affichage de publicités récompensées non-personnalisées</td>
+                    <td>Consentement (recueilli via UMP, requis en UE même pour du non-personnalisé)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>4. Durée de conservation</h2>
+        <ul>
+            <li><strong>Données de progression (Firestore)</strong> : conservées tant que l'application est installée, supprimées sur demande</li>
+            <li><strong>Données analytiques (Firebase Analytics)</strong> : conservées 14 mois, conformément à la politique de Google</li>
+            <li><strong>Données publicitaires (AdMob)</strong> : conservées selon la politique de Google AdMob</li>
+        </ul>
+
+        <hr>
+
+        <h2>5. Transferts hors Union européenne</h2>
+        <p>Les services Firebase et AdMob sont opérés par <strong>Google LLC</strong>, dont les serveurs sont situés aux États-Unis. Ces transferts sont encadrés par les <strong>Clauses Contractuelles Types (CCT)</strong> approuvées par la Commission européenne, conformément au RGPD.</p>
+        <p>Pour plus d'informations : <a href="https://policies.google.com/privacy" target="_blank">Politique de confidentialité de Google</a></p>
+
+        <hr>
+
+        <h2>6. Partage des données avec des tiers</h2>
+        <p>Modex ne vend pas vos données personnelles. Les données sont partagées uniquement avec :</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tiers</th>
+                    <th>Rôle</th>
+                    <th>Politique de confidentialité</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Google LLC (Firebase)</td>
+                    <td>Hébergement, analytics</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td>
+                </tr>
+                <tr>
+                    <td>Google LLC (AdMob)</td>
+                    <td>Publicité intégrée</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>6bis. Réclamation auprès de la CNIL</h2>
+        <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la <strong>Commission Nationale de l'Informatique et des Libertés (CNIL)</strong> : <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></p>
+
+        <hr>
+
+        <h2>7. Vos droits (RGPD)</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+        <ul>
+            <li><strong>Droit d'accès</strong> : obtenir une copie de vos données</li>
+            <li><strong>Droit de rectification</strong> : corriger des données inexactes</li>
+            <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données</li>
+            <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format structuré</li>
+            <li><strong>Droit à la limitation du traitement</strong> : demander que le traitement de vos données soit restreint dans les cas prévus par la loi</li>
+            <li><strong>Droit d'opposition</strong> : vous opposer au traitement de vos données à des fins publicitaires</li>
+            <li><strong>Droit de retrait du consentement</strong> : retirer à tout moment votre consentement via la bannière de gestion des préférences publicitaires (accessible depuis les réglages de l'application)</li>
+            <li><strong>Directives concernant vos données après votre décès</strong> : conformément à l'article 85 de la loi Informatique et Libertés, vous pouvez définir des directives relatives à la conservation, l'effacement et la communication de vos données après votre décès</li>
+        </ul>
+        <p>Pour exercer vos droits, contactez-nous à : <a href="mailto:privacy@seventeeth.com"><strong>privacy@seventeeth.com</strong></a></p>
+
+        <hr>
+
+        <h2>7bis. Décision automatisée et profilage</h2>
+        <p>Modex ne met en œuvre aucune prise de décision automatisée produisant des effets juridiques à votre égard, ni aucun profilage publicitaire. Les publicités affichées sont exclusivement non-personnalisées.</p>
+
+        <hr>
+
+        <h2>8. Sécurité des données</h2>
+        <p>Les données sont transmises via des connexions sécurisées (HTTPS/TLS). Firebase Firestore bénéficie des mesures de sécurité de Google Cloud Platform. Aucune donnée sensible (paiement, mot de passe) n'est stockée par Modex.</p>
+
+        <hr>
+
+        <h2>9. Mineurs</h2>
+        <p>Modex est destiné à un public adulte. L'application n'est pas conçue pour, ni dirigée vers, les personnes de moins de <strong>15 ans</strong> — âge fixé par l'article 45 de la loi Informatique et Libertés comme seuil à partir duquel un mineur peut consentir seul au traitement de ses données personnelles. Nous ne collectons pas sciemment de données concernant des personnes de moins de 15 ans.</p>
+        <p>Nous ne demandons pas votre date de naissance. Si vous êtes parent ou tuteur et souhaitez faire supprimer les données de votre enfant, contactez-nous à <a href="mailto:privacy@seventeeth.com">privacy@seventeeth.com</a>.</p>
+        <p><strong>À propos des classifications d'âge des stores :</strong> la classification attribuée à Modex sur l'App Store reflète des critères de contenu définis par Apple (absence de violence, de contenu sensible, etc.). Cette classification est distincte du présent article et ne signifie pas que l'application est conçue pour, dirigée vers, ou destinée aux mineurs.</p>
+
+        <hr>
+
+        <h2>10. Modifications de la présente politique</h2>
+        <p>Nous nous réservons le droit de modifier cette politique à tout moment. Toute modification substantielle sera notifiée via une mise à jour de l'application ou un avis dans l'app. La date de dernière mise à jour est indiquée en haut de ce document.</p>
+
+        <hr>
+
+        <h2>11. Contact</h2>
+        <p>Pour toute question relative à cette politique de confidentialité :</p>
+        <p>
+            <strong>Seventeeth</strong><br>
+            Email : <a href="mailto:privacy@seventeeth.com"><strong>privacy@seventeeth.com</strong></a>
+        </p>
+
+        <hr>
+
+        <em>Cette politique de confidentialité est rédigée conformément au Règlement (UE) 2016/679 (RGPD) et à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés.</em>
+
+        <footer>
+            © 2026 Seventeeth &nbsp;·&nbsp;
+            <a href="https://seventeeth.com">Retour au site</a>
+        </footer>
+
+    </div>
+</body>
+</html>
