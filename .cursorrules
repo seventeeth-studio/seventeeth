@@ -1,0 +1,97 @@
+# Seventeeth — Cursor Rules
+
+## Project identity
+This is the website for Seventeeth, a small independent game studio based in France.
+Tagline: "We make games worth your time."
+Values: craft, slowness, respect for the player's attention, independence.
+Tone: quiet confidence. Never corporate, never hype. Think Simogo, Norm Architects, Offscreen Magazine.
+
+## Stack
+- Pure vanilla HTML, CSS, JavaScript. No frameworks, no bundlers, no dependencies.
+- Single page: index.html + assets/ folder.
+- Deployed via GitHub Pages. Keep it static and simple.
+- Do NOT introduce npm, React, Vue, Tailwind, Bootstrap, or any external library unless explicitly asked.
+- External fonts from Google Fonts are allowed.
+
+## File structure
+```
+/
+├── index.html         ← main and only page
+├── legal.html
+├── privacy.html
+├── assets/
+│   ├── *.svg          ← illustrations and logo
+│   ├── *.png          ← game thumbnails
+│   └── *.css          ← stylesheets (if extracted)
+├── modex/             ← game subfolder
+└── .cursorrules
+```
+
+## HTML conventions
+- Semantic HTML5 elements only: <section>, <nav>, <main>, <footer>, <article>, <h1>-<h3>.
+- No div soup. Every element must earn its place.
+- Inline styles are forbidden. All styles go in CSS.
+- Class names use kebab-case: .game-card, .hero-title, .nav-link.
+- IDs only for anchor links (#games, #about, #contact) and JS hooks.
+- Images always have meaningful alt attributes.
+- Keep the HTML readable — no minification in source.
+
+## CSS conventions
+- CSS custom properties (variables) for all design tokens:
+  --color-bg, --color-text, --color-accent, --color-muted
+  --font-serif, --font-sans
+  --space-xs, --space-sm, --space-md, --space-lg, --space-xl, --space-2xl
+  --transition-default
+- Mobile-first. Base styles for mobile, media queries for desktop.
+- No !important. Ever.
+- Animations: subtle and purposeful only. Respect prefers-reduced-motion.
+- Use CSS Grid and Flexbox. No floats, no tables for layout.
+
+## JavaScript conventions
+- Vanilla JS only. No jQuery, no utility libraries.
+- Use const by default, let when needed, never var.
+- Keep JS minimal — if it can be done in CSS, do it in CSS.
+- Event listeners use addEventListener, never inline onclick.
+- No console.log left in production code.
+
+## Design direction
+The aesthetic target is: Simogo + Norm Architects + Offscreen Magazine.
+- Lots of whitespace. Silence is intentional, not emptiness.
+- Typography does the heavy lifting. One expressive serif for headings, one neutral sans for body.
+- Max 2 accent colors used sparingly.
+- No decorative elements that don't carry meaning.
+- Transitions: 200-400ms ease, never bouncy or flashy.
+- The site should feel like it was made by one person who cares deeply about every detail.
+
+## Typography rules
+- Heading font: a serif with character (ex: Playfair Display, Cormorant, or DM Serif Display).
+- Body font: a clean sans-serif (ex: Inter, DM Sans, or system-ui as fallback).
+- Font sizes use clamp() for fluid scaling — no fixed px breakpoints for type.
+- Line-height: 1.6 for body, 1.1-1.2 for large headings.
+- Letter-spacing: slight negative tracking on large headings (-0.02em to -0.04em).
+- Never use more than 2 typefaces.
+
+## Content rules
+- Do NOT rewrite or alter any existing copy unless explicitly asked.
+- The existing writing is intentional and well-crafted. Preserve it.
+- Section names and anchor links (#games, #about, #contact) must remain unchanged.
+
+## Performance
+- No unused CSS or JS.
+- Images should be referenced as-is (already in assets/). Do not move or rename files.
+- Prefer SVG for illustrations and icons.
+- Avoid loading fonts for weights that aren't used.
+
+## What to always do
+- Read the existing code before suggesting changes.
+- Make surgical edits — change only what's needed.
+- Explain what you changed and why in one short sentence after each edit.
+- When in doubt, do less. Restraint is the point.
+
+## What to never do
+- Do not add a framework or build step.
+- Do not add cookie banners, popups, or modals unless asked.
+- Do not add animations that feel playful or bouncy — this is a quiet studio.
+- Do not add stock icons from Font Awesome or similar — use SVG or CSS only.
+- Do not increase the number of HTTP requests without a good reason.
+- Do not change the file structure without asking first.
